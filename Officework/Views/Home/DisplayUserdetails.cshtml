@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Officework.Models.Userdetail1>
+
+@{
+    ViewBag.Title = "DisplayUserdetails";
+}
+
+<h2>DisplayUserdetails</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Formdetails")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Phone_no)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Location)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phone_no)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Location)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "UpdateDetails", new { id=item.Id }) |
+          
+            @Html.ActionLink("Delete", "DeleteDetails", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
