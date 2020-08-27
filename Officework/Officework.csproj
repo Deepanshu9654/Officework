@@ -142,7 +142,6 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="AuthenticationFilter.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Userdetail1Controller.cs" />
     <Compile Include="Global.asax.cs">
