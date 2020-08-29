@@ -22,6 +22,7 @@ namespace Officework.Controllers
 		[HttpGet]
 		public ActionResult Formdetails()
 		{
+
 				return View();
 		}
 		[HttpPost]
