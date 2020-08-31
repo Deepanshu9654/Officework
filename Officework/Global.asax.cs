@@ -13,6 +13,7 @@ namespace Officework
     {
         protected void Application_Start()
         {
+            Console.WriteLine("Hello");
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
