@@ -13,9 +13,9 @@ namespace Officework
     {
         protected void Application_Start()
         {
-            AreaRegistration.RegisterAllAreas();///aaaa bbb
-            GlobalConfiguration.Configure(WebApiConfig.Register); //ccc ddd
-            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters); //eee
+            AreaRegistration.RegisterAllAreas();///aaaa bbb fff
+            GlobalConfiguration.Configure(WebApiConfig.Register); //ccc ddd ffff
+            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters); //eee ggggg
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
