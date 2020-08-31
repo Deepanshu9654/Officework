@@ -13,8 +13,8 @@ namespace Officework
     {
         protected void Application_Start()
         {
-            Console.WriteLine("Hello");
-            AreaRegistration.RegisterAllAreas();
+            AreaRegistration.RegisterAllAreas();;//hjkkjgjh
+            //jkhgjhfghjfhgfhgfhgfhgfhg
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
